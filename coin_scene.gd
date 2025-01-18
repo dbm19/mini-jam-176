@@ -11,6 +11,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if mouse_inside == true && Input.is_action_just_pressed("mouse_click"):
 		Singleton.coin_flip_sound.play()
+		Singleton._flip_coin()
 
 func _on_coin_sprite_area_mouse_entered() -> void:
 	mouse_inside = true

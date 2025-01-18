@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://drjvlib8dm8fn"]
+
+[ext_resource type="Script" path="res://singleton.gd" id="1_vdqnj"]
+[ext_resource type="AudioStream" uid="uid://cep51uyj6vjt1" path="res://sounds/coin_flip_sound.wav" id="2_pnbpo"]
+
+[node name="Singleton" type="Node"]
+script = ExtResource("1_vdqnj")
+
+[node name="CoinFlipSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_pnbpo")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://6q631b6wwgmb"]
+
+[ext_resource type="PackedScene" uid="uid://46f6r10ojdpp" path="res://coin_scene.tscn" id="1_4g8rm"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="CoinScene" parent="." instance=ExtResource("1_4g8rm")]

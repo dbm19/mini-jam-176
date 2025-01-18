@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyr3n337k66fk"
+path="res://.godot/imported/Coin Flip  Free Sound Effect.mp3-e2c02041b29fdac79292e6fb168bc165.mp3str"
+
+[deps]
+
+source_file="res://sounds/Coin Flip  Free Sound Effect.mp3"
+dest_files=["res://.godot/imported/Coin Flip  Free Sound Effect.mp3-e2c02041b29fdac79292e6fb168bc165.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

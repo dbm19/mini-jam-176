@@ -18,8 +18,7 @@ func _flip_coin() -> void:
 		coin_flip_result = "heads"
 	else:
 		coin_flip_result = "tails"
-	print(coin_flip_result)
+	#print(coin_flip_result)
 
 func _on_coin_flip_sound_finished() -> void:
-	print("dnak")
 	result_finished = true

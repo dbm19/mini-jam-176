@@ -17,7 +17,7 @@ func _process(delta: float) -> void:
 	
 	if Singleton.result_finished == true:
 		if Singleton.coin_flip_result == "heads":
-				coin_sprite.texture = load("res://art/icon.svg")
+			coin_sprite.texture = load("res://art/fox-head.png")
 		else:
 			coin_sprite.texture = load("res://art/tails.png")
 

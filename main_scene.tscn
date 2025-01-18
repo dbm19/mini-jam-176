@@ -1,7 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://6q631b6wwgmb"]
+[gd_scene load_steps=3 format=3 uid="uid://6q631b6wwgmb"]
 
 [ext_resource type="PackedScene" uid="uid://46f6r10ojdpp" path="res://coin_scene.tscn" id="1_4g8rm"]
+[ext_resource type="Texture2D" uid="uid://cg245ej3w8ojs" path="res://art/Background.png" id="1_rg17l"]
 
 [node name="MainScene" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_rg17l")
 
 [node name="CoinScene" parent="." instance=ExtResource("1_4g8rm")]
